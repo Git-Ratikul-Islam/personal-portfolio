@@ -62,12 +62,29 @@ nav ul li {
       height: 600px;
 }
 
+.banner-title {
+      font-size: 85px;
+      font-weight: 700;
+      margin-top: 5px;
+      margin-bottom: 20px;
+}
+
+
+
 /* main sectin styles */
+main {
+      max-width: 1100px;
+      margin: 0 auto;
+}
+
+
 .about {
       padding: 150px;
       background-color: #FFF8F3;
       border-radius: 10px;
+      margin-top: 30px;
 }
+
 
 .section-title {
       color: #181818;
@@ -83,4 +100,13 @@ nav ul li {
       font-size: 18px;
       font-weight: 400;
 
+}
+
+.about-info-container {
+      display: flex;
+      justify-content: space-between;
+}
+
+.about-info {
+      text-align: center;
 }
